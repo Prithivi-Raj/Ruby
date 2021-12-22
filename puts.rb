@@ -19,13 +19,20 @@ END{
 
 }
 
+# module ModuleG
+#     Cons="moduleg ulla module constant pa nanu"
+#     def jil
+#         puts "moduleg ulla ka method pa na"
+#     end
+# end
 
 module G
-    Cons="h module constant pa nanu"
+    Cons="gmodule constant pa nanu"
     def jil
         puts "gmodule ka method pa na"
     end
 end
+
 
 module H
    
@@ -35,8 +42,8 @@ module H
 end
 
 
-require `G`
-G::Cons
+require_relative 'ModuleG'
+puts ModuleG::Cons
 
 
 
