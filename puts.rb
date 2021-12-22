@@ -43,7 +43,7 @@ end
 
 object1=Classname1.new("kppddq","dwwdwdwd yxwxwxwdxdou")
 puts "poda"+object1.retur()
-puts object1.claskoret
+puts object1.claskoret.to_s
 puts $glob
 =begin 
 skwkks
