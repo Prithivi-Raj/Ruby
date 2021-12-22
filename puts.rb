@@ -1,4 +1,4 @@
-puts "bnsxjsxn"
+# puts "bnsxjsxn"
 
 def a(b)
     return 1
@@ -7,7 +7,7 @@ end
 a=2 
 b=3
 
-puts (a/ b)
+# puts (a/ b)
 
 BEGIN{
         puts "begining di "
@@ -59,7 +59,9 @@ class Derivi < Classname1
 
 
     def desc 
+        super
         puts "Maame na derived da"
+        
     end
 end
 
@@ -67,7 +69,7 @@ object1=Classname1.new("kppddq","dwwdwdwd yxwxwxwdxdou")
 derobj=Derivi.new("kudkiu","derive ariyum","kajja")
 
 puts derobj.x
-
+derobj.desc
 puts "poda"+object1.retur()
 puts object1.claskoret.to_s
 puts $glob
