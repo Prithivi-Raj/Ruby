@@ -20,7 +20,11 @@ END{
 }
 
 
-class classname 
+class Classname1 
+    def construct(x,y)
+        @x=x
+        @y=y
+    end
 end
 =begin 
 skwkks
