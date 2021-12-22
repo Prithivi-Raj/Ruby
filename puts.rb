@@ -21,11 +21,18 @@ END{
 
 
 class Classname1 
-    def construct(x,y)
+    def initialize(x,y)
         @x=x
         @y=y
     end
+
+    def retur
+        return @x
+    end
 end
+
+object1=Classname1.new("kusu","love you")
+puts "poda"+object1.retur()
 =begin 
 skwkks
 sjjajs
