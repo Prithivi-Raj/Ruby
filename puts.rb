@@ -24,6 +24,11 @@ class Classname1
     $glob="lovesosoos"
     @@classcount=0
 
+    attr_reader :x
+    attr_reader :y
+    attr_writer :y
+
+
 
 
     def initialize(x,y)
@@ -45,6 +50,13 @@ object1=Classname1.new("kppddq","dwwdwdwd yxwxwxwdxdou")
 puts "poda"+object1.retur()
 puts object1.claskoret.to_s
 puts $glob
+
+puts object1.x
+puts object1.y
+
+object1.y="changed y"
+puts object1.y
+
 =begin 
 skwkks
 sjjajs
