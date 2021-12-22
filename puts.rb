@@ -20,6 +20,8 @@ END{
 }
 
 
+class classname 
+end
 =begin 
 skwkks
 sjjajs
