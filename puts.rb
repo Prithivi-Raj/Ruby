@@ -20,7 +20,25 @@ END{
 }
 
 
-class Classname1 
+module G
+    def jil
+        puts "gmodule ka method pa na"
+    end
+end
+
+module H
+    def hil
+        puts "h module ka methoda pa na"
+    end
+end
+
+
+
+
+class Classname1
+include G 
+include H
+
     $glob="lovesosoos"
     @@classcount=0
 
@@ -66,6 +84,9 @@ class Derivi < Classname1
 end
 
 object1=Classname1.new("kppddq","dwwdwdwd yxwxwxwdxdou")
+object1.jil
+object1.hil
+
 derobj=Derivi.new("kudkiu","derive ariyum","kajja")
 
 puts derobj.x
