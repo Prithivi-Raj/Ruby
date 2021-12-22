@@ -8,3 +8,13 @@ a=2
 b=3
 
 puts (a/ b)
+
+BEGIN{
+        puts "begining di "
+
+    }
+
+END{
+    puts "end di"
+
+}
