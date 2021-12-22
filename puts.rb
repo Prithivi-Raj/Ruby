@@ -37,6 +37,10 @@ class Classname1
         @@classcount+=1
     end
 
+    def desc
+        puts "mama na base da"
+    end
+
     def retur
         return @x
     end
@@ -46,7 +50,24 @@ class Classname1
 
 end
 
+class Derivi < Classname1
+
+    def initialize(x,y,z)
+        super(x,y)
+        @z=z
+    end
+
+
+    def desc 
+        puts "Maame na derived da"
+    end
+end
+
 object1=Classname1.new("kppddq","dwwdwdwd yxwxwxwdxdou")
+derobj=Derivi.new("kudkiu","derive ariyum","kajja")
+
+puts derobj.x
+
 puts "poda"+object1.retur()
 puts object1.claskoret.to_s
 puts $glob
@@ -56,6 +77,9 @@ puts object1.y
 
 object1.y="changed y"
 puts object1.y
+
+
+
 
 =begin 
 skwkks
