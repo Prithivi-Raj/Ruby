@@ -21,16 +21,22 @@ END{
 
 
 module G
+    Cons="h module constant pa nanu"
     def jil
         puts "gmodule ka method pa na"
     end
 end
 
 module H
+   
     def hil
-        puts "h module ka methoda pa na"
+        puts "h module ka methoda pa na with twice ka magic"
     end
 end
+
+
+require `G`
+G::Cons
 
 
 
