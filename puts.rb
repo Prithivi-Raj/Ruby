@@ -21,6 +21,7 @@ END{
 
 
 class Classname1 
+    $glob="lovesosoos"
     def initialize(x,y)
         @x=x
         @y=y
@@ -31,8 +32,9 @@ class Classname1
     end
 end
 
-object1=Classname1.new("kusu","love you")
+object1=Classname1.new("kppddq","dwwdwdwd yxwxwxwdxdou")
 puts "poda"+object1.retur()
+puts $glob
 =begin 
 skwkks
 sjjajs
