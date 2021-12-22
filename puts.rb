@@ -50,7 +50,7 @@ puts ModuleG::Cons
 
 class Classname1
 include G 
-include H
+extend H
 
     $glob="lovesosoos"
     @@classcount=0
@@ -98,7 +98,7 @@ end
 
 object1=Classname1.new("kppddq","dwwdwdwd yxwxwxwdxdou")
 object1.jil
-object1.hil
+Classname1.hil
 
 derobj=Derivi.new("kudkiu","derive ariyum","kajja")
 
