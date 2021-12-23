@@ -58,6 +58,7 @@ extend H
     attr_reader :x
     attr_reader :y
     attr_writer :y
+    
 
 
 
