@@ -161,3 +161,19 @@ skwkks
 sjjajs
 jsjsjs
 =end
+
+class Privchec
+    def initialize
+        puts "init"
+        
+
+
+    end
+    protected
+    def priva
+        puts 'private da naanu' 
+    end
+end
+
+d=Privchec.new()
+# d.priva
