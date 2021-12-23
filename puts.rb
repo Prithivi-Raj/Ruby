@@ -131,11 +131,18 @@ class Appa
         end
 
     end
+
+    def helppriv
+        Ponnu.new.ponumethod
+    end
+
 private_constant :Ponnu
 end
 
 
 pulobj = Appa::Pulla.new()
+apobj=Appa.new()
+apobj.helppriv
 # ponobj =Appa::Ponnu.new()
 
 pulobj.pullamethod
