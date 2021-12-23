@@ -180,8 +180,10 @@ d=Privchec.new()
 
 arr=Array.new()
 arr1=Array.new(3,"ksksk")
+arr2=["slls",2,3,4,",sdks,","soso"]
 
-puts arr.size()
+puts arr2.size
+puts arr.size
 puts arr1.length()
 
 puts "#{arr1}"
