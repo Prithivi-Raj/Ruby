@@ -177,3 +177,11 @@ end
 
 d=Privchec.new()
 # d.priva
+
+arr=Array.new()
+arr1=Array.new(3,"ksksk")
+
+puts arr.size()
+puts arr1.length()
+
+puts "#{arr1}"
