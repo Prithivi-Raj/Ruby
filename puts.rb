@@ -143,6 +143,16 @@ end
 pulobj = Appa::Pulla.new()
 apobj=Appa.new()
 apobj.helppriv
+
+apobj.freeze
+
+if(apobj.frozen?)
+    puts "frozen padam"
+else
+    puts "not frozen"
+end
+
+
 # ponobj =Appa::Ponnu.new()
 
 pulobj.pullamethod
