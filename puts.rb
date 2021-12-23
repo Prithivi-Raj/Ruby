@@ -58,7 +58,7 @@ extend H
     attr_reader :x
     attr_reader :y
     attr_writer :y
-    
+
 
 
 
@@ -118,6 +118,27 @@ puts object1.y
 
 
 
+class Appa
+    class Pulla
+        def pullamethod
+            puts "pulla da naanu"
+        end
+        
+    end
+    class Ponnu
+        def ponumethod
+            puts "ponnu da naanu"
+        end
+
+    end
+private_constant :Ponnu
+end
+
+
+pulobj = Appa::Pulla.new()
+# ponobj =Appa::Ponnu.new()
+
+pulobj.pullamethod
 =begin 
 skwkks
 sjjajs
