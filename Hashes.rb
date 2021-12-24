@@ -9,4 +9,4 @@ puts "#{hashvar["ssk"]}"
 
 puts "#{hashvar2['lo']}"
 
-puts hashvar2[:lop]
+puts "#{hashvar2[]}"
