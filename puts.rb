@@ -182,7 +182,12 @@ arr=Array.new()
 arr1=Array.new(3,"ksksk")
 arr2=["slls","lsl","slls","alal",",sdks,","soso"]
 
-puts "#{arr2.collect {|x| x+"!"}}\n\n"
+arr2.each do |x|
+    puts x+"ll"
+end
+
+
+puts "#{arr2.collect {|x| x+"!"}}"
 
 puts arr2.size
 puts arr.size
