@@ -1,13 +1,23 @@
 def raise_exception
     begin
         puts "before raise"
-        raise "im the raise exce[tion"
-        $c=$a/$b
+        # raise "im the raise exce[tion"
+        # $c=$a/$b
         puts "apparent;y me no print"
+
+    
 
         rescue
             puts "finallys saved"
+
+    else
+        puts "e,se"
+        
+
+        ensure 
+            puts "mama"
     end
+
     puts"outside nbegin"
 end
 
@@ -18,7 +28,7 @@ $b=0
 raise_exception
 
 
-puts "#{$c}"
+# puts "#{$c}"
 
 # Ruby program to create the user
 # defined exception and rescued
