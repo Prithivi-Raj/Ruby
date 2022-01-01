@@ -1,9 +1,17 @@
 def raise_exception
-    puts "before raise"
+    begin
+        puts "before raise"
+        raise "im the raise exce[tion"
+        puts "apparent;y me no print"
 
-    raise "im the raise exce[tion"
+        rescue
+            puts "finallys saved"
+    end
+    puts"outside nbegin
 
-    puts "apparent;y me no print"
+    
+
+    
 end
 
 
