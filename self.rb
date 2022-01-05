@@ -21,4 +21,5 @@ d=Coffee.new()
 d.coffee
 # kol
 
-puts [1,2,3,nil,false].select(&:itself)
+puts [1,2,3,nil,false].select(& :itself)
+#filters nil and false
