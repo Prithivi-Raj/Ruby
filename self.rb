@@ -23,3 +23,15 @@ d.coffee
 
 puts [1,2,3,nil,false].select(& :itself)
 #filters nil and false
+
+class Mainclass
+    def edhofunc
+        puts "edhofunc"
+    end
+
+    class << self
+        def selfkula
+            puts "selfkula"
+        end
+        
+
